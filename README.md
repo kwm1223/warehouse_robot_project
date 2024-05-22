@@ -4,3 +4,4 @@ The repo for multi-robot project in warehouse, a project of 'The Self-driving De
 ## member
 
 - zozibush([Github](https://github.com/zozibush)) : AGV
+- woong137([Github](https://github.com/woong137)) : AMR
