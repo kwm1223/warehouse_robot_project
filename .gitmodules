@@ -1,4 +1,0 @@
-[submodule "src/bcr_bot"]
-	path = src/bcr_bot
-	url = https://github.com/blackcoffeerobotics/bcr_bot
-	branch = ros1
