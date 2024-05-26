@@ -4,6 +4,9 @@ build/**
 #devel
 devel/**
 
+#aws
+aws-robomaker-small-warehouse-world/
+
 #vscode
 .vscode/**
 ./idea/**
