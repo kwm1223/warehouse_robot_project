@@ -1,4 +1,10 @@
+
 [submodule "src/agv"]
 	path = src/agv
 	url = https://github.com/zozibush/agv
 	branch = main
+
+[submodule "src/bcr_bot"]
+	path = src/bcr_bot
+	url = https://github.com/woong137/bcr_bot
+	branch = ros1_multi_bot
