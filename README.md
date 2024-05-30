@@ -22,3 +22,7 @@ press the keys '2' and '4' to set the robot in trotting mode
 
 - terminal 4
 `rosrun map_server map_saver -f ~/warehouse_robot_project/src/ros_unitree/unitree_guide/unitree_navigation/maps/aws`
+
+## AMR
+- terminal 1
+`roslaunch bcr_bot multi_bot_core.launch`
