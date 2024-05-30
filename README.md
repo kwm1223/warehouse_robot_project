@@ -22,3 +22,17 @@ press the keys '2' and '4' to set the robot in trotting mode
 
 - terminal 4
 `rosrun map_server map_saver -f ~/warehouse_robot_project/src/ros_unitree/unitree_guide/unitree_navigation/maps/aws`
+
+## AGV Launch Command
+
+- AGV Multi Spawn:
+
+```bash
+roslaunch agv_launch main_multi.launch
+```
+
+- AGV follow lane:
+
+```bash
+roslaunch agv_follow_lane follow_lane.launch
+```
