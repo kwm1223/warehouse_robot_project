@@ -8,6 +8,7 @@ The repo for multi-robot project in warehouse, a project of 'The Self-driving De
 - kwm1223([Github](https://github.com/kwm1223)) : master
 
 ## Go1
+### Mapping
 - terminal 1
 `roslaunch unitree_gazebo robot_simulation.launch`
 
@@ -22,3 +23,15 @@ press the keys '2' and '4' to set the robot in trotting mode
 
 - terminal 4
 `rosrun map_server map_saver -f ~/warehouse_robot_project/src/ros_unitree/unitree_guide/unitree_navigation/maps/aws`
+
+### Navigation
+- terminal 1
+`roslaunch unitree_gazebo robot_simulation.launch`
+
+- terminal 2
+`rosrun unitree_guide junior_ctrl`
+
+press the keys '2' and '5' to set the robot in move_base mode
+
+- terminal 3
+`roslaunch unitree_navigation navigation.launch rname:=go1 map_file:=/root/kdt/kdt_ws/src/ros_unitree/unitree_guide/unitree_navigation/maps/aws.yaml`
