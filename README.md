@@ -36,3 +36,15 @@ roslaunch agv_launch main_multi.launch
 ```bash
 roslaunch agv_follow_lane follow_lane.launch
 ```
+
+- AGV follow aruco:
+
+```bash
+roslaunch agv_follow_aruco follow_aruco.launch
+```
+
+- AGV controller:
+
+```bash
+roslaunch agv_control agv_control.launch
+```
