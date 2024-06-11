@@ -1,0 +1,15 @@
+
+    material marker_material5
+    {
+        technique
+        {
+            pass
+            {
+                texture_unit
+                {
+                    texture filename.png
+                }
+            }
+        }
+    }
+    
