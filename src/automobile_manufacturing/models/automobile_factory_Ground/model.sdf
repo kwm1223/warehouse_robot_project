@@ -15,7 +15,7 @@
           <izz>2033333.33</izz>
         </inertia>
       </inertial>
-      <collision name="colision">
+      <collision name="collision">
         <geometry>
 	        <mesh>
 	          <uri>model://automobile_factory_Ground/meshes/automobile_factory_Ground.dae</uri>
