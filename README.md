@@ -40,3 +40,11 @@ roslaunch agv_follow_lane follow_lane.launch
 ## AMR
 - terminal 1
 `roslaunch bcr_bot multi_bot_core.launch`
+
+## Lisense
+
+This project included:
+
+- [agv_model](https://github.com/inomuh/agv).
+- [agv_follow_lane](https://github.com/mlsdpk/ros-lane-follower).
+- [aruco_model](https://github.com/joselusl/aruco_gazebo).
