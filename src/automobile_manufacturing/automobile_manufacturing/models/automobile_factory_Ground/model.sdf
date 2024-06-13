@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
   <model name="automobile_factory_Ground">
-    <static>true</static>
+    <static>false</static>
     <pose> 0 0 0 0 0 0</pose>
     <link name = "link">
       <inertial>
@@ -15,7 +15,7 @@
           <izz>2033333.33</izz>
         </inertia>
       </inertial>
-      <collision name="collision">
+      <collision name="colision">
         <geometry>
 	        <mesh>
 	          <uri>model://automobile_factory_Ground/meshes/automobile_factory_Ground.dae</uri>
