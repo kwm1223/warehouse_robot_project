@@ -24520,11 +24520,12 @@
           </inertia>
         </inertial>
         <collision name='collision'>
+          <pose>80 37.5 0</pose>
           <geometry>
-            <mesh>
-              <uri>model://automobile_factory_Ground/meshes/automobile_factory_Ground.dae</uri>
-              <scale>1 1 1</scale>
-            </mesh>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>160 75</size>
+            </plane>
           </geometry>
           <surface>
             <friction>
