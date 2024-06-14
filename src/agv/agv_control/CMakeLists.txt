@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   rospy
   sensor_msgs
+  std_msgs
   message_generation
 )
 
@@ -55,11 +56,10 @@ add_message_files(
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  JsonPath.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -72,6 +72,7 @@ add_message_files(
 generate_messages(
   DEPENDENCIES
   geometry_msgs#   sensor_msgs
+  std_msgs
 )
 
 ################################################
@@ -106,7 +107,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
  LIBRARIES agv_controll
- CATKIN_DEPENDS geometry_msgs rospy sensor_msgs message_runtime
+ CATKIN_DEPENDS geometry_msgs rospy sensor_msgs std_msgs message_runtime
 #  DEPENDS system_lib
 )
 

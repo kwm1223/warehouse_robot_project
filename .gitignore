@@ -16,5 +16,8 @@ aws-robomaker-small-warehouse-world/
 #windows
 .DS_Store
 
+#python
+*.pyc
+
 # agv
 src/agv/agv_description/meshes/OTAv07_meshes/OTA-v0.7.stl
